@@ -11,3 +11,4 @@ class TestMainPage1():
         time.sleep(30)
         add_to_basket = browser.find_element_by_css_selector(".btn-primary")
         assert add_to_basket, 'кнопка добавления в корзину не существует'
+        print("finish test")
